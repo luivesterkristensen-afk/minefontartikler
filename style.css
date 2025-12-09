@@ -1,0 +1,124 @@
+.nyhedsartikel {
+    font-family: HelveticaNeueLight, sans serif;
+    text-align: justify;
+    
+}
+
+
+@font-face {
+    font-family: HelveticaNeueBlack;
+    src: url(../assets/HelveticaNeueBlack.otf);
+}
+
+
+@font-face {
+    font-family: HelveticaNeueLight;
+    src: url(../assets/HelveticaNeueLight.otf);
+
+}
+
+
+.nyhedoverskrift {
+    font-family: HelveticaNeueBlack, sans serif;
+    text-align: left;
+    
+    
+}
+
+section.nyhedsartikel {
+    width: 60%;
+    max-width: 650px;
+    margin: auto;
+    
+    text-align: justify;
+    & article {
+        p {
+            b
+        }
+        blockquote {
+            margin: 0px;
+            padding: 0px;
+            font-style: italic;
+        }
+    }
+    
+}
+
+.live-bar {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 0;
+    padding-top: 0;
+    font-family: HelveticaNeueBlack, sans-serif;
+    
+}
+
+.live-tag {
+    background-color: #d60000;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.2rem 0.5rem;
+    font-family: HelveticaNeueBlack, sans-serif;
+
+}
+
+.live-category {
+    background-color: #ffe5df;
+    color: #2f0aaa;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.2rem 0.5rem;
+    font-family: HelveticaNeueLight, sans-serif;
+
+}
+
+
+.bryllup {  
+    width: 60%;
+    max-width: 650px;
+    margin: auto;
+    font-family: Indie Flower, cursive;
+    text-align: center;
+    & article {
+        p {
+            b
+        }
+        blockquote {
+            margin: 0px;
+            padding: 0px;
+            font-style: italic;
+        }
+    }
+}
+
+.mellemrum {
+ margin: 200px; 
+}
+
+
+.hippos {
+    width: 60%;
+    max-width: 650px;
+    margin: auto;
+    font-family: 'Metal Mania', cursive;
+    margin-bottom: 300px;
+    text-align: center;
+    & article {
+        p {
+            b
+        }
+        blockquote {
+            margin: 0px;
+            padding: 0px;
+            font-style: italic;
+        }
+    }
+}
+
+.hipposoverskrift {
+    font-family: 'Galada', cursive;
+    
+    
+}
